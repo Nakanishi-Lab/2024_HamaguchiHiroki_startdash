@@ -1,0 +1,47 @@
+This is upBibTeX, Version 0.99d-j0.36-u1.30 (utf8.uptex) (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: kadai3_2.aux
+The style file: jplain.bst
+Database file #1: hoge.bib
+You've used 3 entries,
+            2620 wiz_defined-function locations,
+            613 strings with 5030 characters,
+and the built_in function-call counts, 1209 in all, are:
+= -- 98
+> -- 46
+< -- 6
++ -- 19
+- -- 16
+* -- 72
+:= -- 178
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 63
+empty$ -- 93
+format.name$ -- 24
+if$ -- 270
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 58
+stack$ -- 0
+substring$ -- 49
+swap$ -- 15
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 8
+width$ -- 4
+write$ -- 35
+is.kanji.str$ -- 36

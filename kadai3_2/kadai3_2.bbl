@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{Kunth84literateprogramming}
+Donald~E. Knuth.
+\newblock Literate programming.
+\newblock {\em The Computer Journal}, Vol.~27, pp. 97 -- --111, 1984.
+
+\bibitem{osuka_2010_ImplicitControl}
+大須賀公一, 石黒章夫, 鄭心知, 杉本靖博, 大脇大.
+\newblock 制御系に埋め込まれた陰的制御則が適応機能のカギを握る！？
+\newblock 日本ロボット学会誌, Vol.~28, No.~4, 2010.
+
+\bibitem{osuka2000}
+大須賀公一, 桐原謙一.
+\newblock 受動態的歩行ロボット quartet.
+\newblock 日本ロボット学会誌, Vol.~18, No.~5, 2000.
+
+\end{thebibliography}

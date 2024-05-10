@@ -1,0 +1,58 @@
+\documentclass{jarticle}
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\usepackage[dvipdfmx]{graphicx}
+\captionsetup{compatibility=false}
+\begin{document}
+\begin{figure}[h]
+  \centering
+  \begin{tabular}{cccccc}
+  \begin{minipage}[c]{0.3\columnwidth}
+      \centering
+      \includegraphics[width=0.9\columnwidth]{tiger.eps}
+      \subcaption{虎１}
+      \label{虎１}
+  \end{minipage}
+
+  \begin{minipage}[c]{0.3\columnwidth}
+      \centering
+      \vspace{5mm}\includegraphics[width=0.9\columnwidth]{tiger.eps}
+      \subcaption{虎２}
+      \label{虎２}
+  \end{minipage}
+
+  \begin{minipage}[c]{0.3\columnwidth}
+      \centering
+      \includegraphics[width=0.9\columnwidth]{tiger.eps}
+      \subcaption{虎３}
+      \label{虎３}
+  \end{minipage}\\
+
+  \begin{minipage}[c]{0.3\columnwidth}
+    \centering
+    \includegraphics[width=0.9\columnwidth]{tiger.eps}
+    \subcaption{虎４}
+    \label{虎４}
+\end{minipage}
+
+\begin{minipage}[c]{0.3\columnwidth}
+    \centering
+    \vspace{5mm}\includegraphics[width=0.9\columnwidth]{tiger.eps}
+    \subcaption{虎５}
+    \label{虎５}
+\end{minipage}
+
+\begin{minipage}[c]{0.3\columnwidth}
+    \centering
+    \includegraphics[width=0.9\columnwidth]{tiger.eps}
+    \subcaption{虎６}
+    \label{虎６}
+\end{minipage}\\
+
+  \end{tabular}
+    
+
+    \caption{sample tiger1}
+    \centering
+\end{figure}
+\end{document}

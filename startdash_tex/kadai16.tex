@@ -1,0 +1,21 @@
+\documentclass{jarticle}
+\usepackage{multirow}
+
+\begin{document}
+\begin{table}[h]
+   
+    \centering
+    \caption{液体の物性値}
+    \label{tab:hogehoge}
+    \begin {tabular}{c|c|c|c}
+        \hline
+         \multirow{2}{*}{分類}   &  \multirow{2}{*}{物質} &  粘度$\mu$   & 動粘度$\nu$ \\ \cline{3-4}
+         & & $（Pa \cdot s）\times 10^{-6}$ & $（m^2/s）\times 10^{-6} $\\ \hline \hline 
+         \multirow{3}{*}{液体}   &  水 & 854.4 & 0.857 \\ \cline{2-4}
+         & ガソリン & 488 & 0.654\\ \cline{2-4}
+         &潤滑油 & 10200 & 11.80 \\ \hline 
+         
+    \end{tabular}
+    
+\end{table}
+\end{document}

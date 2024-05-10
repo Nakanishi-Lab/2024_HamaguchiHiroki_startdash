@@ -1,0 +1,21 @@
+\documentclass{jarticle}
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\usepackage[dvipdfmx]{graphicx}
+\captionsetup{compatibility=false}
+\begin{document}
+\begin{figure}[htbp]
+    \begin{minipage}[c]{0.45\linewidth}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.25]{tiger.eps}
+      \subcaption{虎１}
+    \end{minipage}
+    \begin{minipage}[c]{0.45\linewidth}
+      \centering
+      \vspace{5mm}\includegraphics[keepaspectratio, scale=0.25]{tiger.eps}
+      \subcaption{虎２}
+    \end{minipage}
+    \caption{sample tiger1}
+    \centering
+  \end{figure}
+\end{document}
